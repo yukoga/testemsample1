@@ -1,0 +1,16 @@
+{
+	"name" : "testem tutorial",
+	"version" : "0.0.1",
+	"description" : "A tutorial for testem",
+	"keywords" : ["test", "tutorial"],
+	"author" : "ykoga",
+	"main" : "index",
+	"engines" : {"node" : ">=0.0.1"},
+	"scripts" : {
+		"test" : "make test"
+	},
+	"devDependencies" : {
+		"mocha" : "1.8.x",
+		"should" : "*"
+	}
+}
